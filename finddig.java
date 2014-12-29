@@ -7,7 +7,6 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) throws Exception{
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int len = Integer.parseInt(br.readLine());
         if (len < 1 || len > 15){
